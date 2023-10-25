@@ -1,0 +1,46 @@
+#chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Styling for chat log (message history) */
+#chat-log {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+/* Styling for user input field */
+#user-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Styling for the send button */
+#send-button {
+    background-color: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#send-button:hover {
+    background-color: #005f99;
+}
